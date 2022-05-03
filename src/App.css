@@ -1,0 +1,134 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 700px;
+}
+
+.container {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  background-color: #282c34;
+}
+
+.search input {
+  padding: 8px;
+  width: 400px;
+}
+
+.main button {
+  padding: 8px;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border: none;
+  border-radius: 5px;
+}
+.container .content {
+  width: 700px;
+  margin-top: 13px;
+}
+
+.container .content ul {
+  list-style: none;
+}
+
+.container .content ul li {
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.container .content ul li h6, small{
+font-size: 15px;
+margin:0px
+}
+
+.container .content ul li .info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.container .content ul li .body{
+  font-size:20px;
+  margin-top: 6px;
+}
+img{
+  width: 100%;
+}
+
+.Modal {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  background-color: white;
+  color: #282c34;
+  width: 700px;
+  margin: 0px auto;
+}
+
+.Modal .form-container {
+  display: flex;
+  justify-content: center;
+}
+.Modal .form-container form {
+  margin: 20px;
+}
+.Modal .form-container form input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  padding: 7px;
+  width: 300px;
+}
+
+.Modal .form-container form button {
+  padding: 10px;
+  background-color: #282c34;
+  border: none;
+  width: 300px;
+  color: white;
+  cursor: pointer;
+}
+
+.close {
+  display: block;
+  color: #282c34;
+  margin: 10px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.open{
+  position:absolute;
+  left:10px;
+  bottom:10px;
+  background-color: white;
+  height:40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 25px;
+  z-index: 1;
+  cursor: pointer;
+}
